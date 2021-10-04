@@ -1,0 +1,320 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.banner{
+    background-image: url("./gallery/banner.jpeg");
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    top: 0%;
+    left: 50px;
+    width: 300px;
+    height: 150px;
+    color: goldenrod;
+    padding-top: 15px;
+}
+.quote{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    color: rgb(12, 10, 6);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    text-align: center;
+    border-top: solid 5px rgb(19, 18, 18);
+
+}
+.quote span{
+    color: goldenrod;
+}
+.request-btn{
+    position: absolute;
+    top: 53%;
+    left: 45%;
+    border: none;
+    outline: none;
+    padding: 15px 45px;
+    background-color: goldenrod;
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+}
+
+/******************************************************************/
+.award{
+    padding: 25px 0px;
+   background-color: rgb(88, 86, 86); 
+}
+.award p{
+    color: white;
+    font-size: 26px;
+}
+.award span{
+    font-size: 35px;
+    color: goldenrod;
+    
+
+}
+.watch-btn{
+    color: white;
+    margin-top: 18px;
+    font-size: 15px;
+    padding: 18px 30px;
+    outline: goldenrod;
+}
+
+/*****************************************************/
+.choice h2{
+    padding-top: 20px;
+    color: gray;
+}
+.choice i{
+    color: goldenrod;
+}
+
+
+/******************************************************/
+
+.profession span{
+    color: goldenrod;
+    font-weight: bold;
+}
+.profession h1{
+    color: rgb(51, 49, 49);
+}
+
+
+/******************************gallery**************************/
+
+
+.gallery p{
+    font-size: 35px;
+    text-align: center;
+}
+
+
+/*****************************************/
+.experts-bg{
+    background-image: url("./gallery/bg-2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.call-btn{
+    padding: 25px 45px;
+    font-weight: 500;
+    font-size: 20px;
+    border: solid 3px white;
+    color: white;
+}
+.experts-bg p{
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+/********************************************/
+.custom-heading{
+    font-size: 45px;
+    color: goldenrod;
+}
+.custom-homes p{
+    font-weight: 400;
+}
+
+
+
+/**********************************************************/
+
+.expert-bg{
+    background-image: url(https://images.pexels.com/photos/380768/pexels-photo-380768.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    
+}
+.expert-bg h1{
+    font-size: 48px;
+}
+
+.info-btn{
+    background-color: rgb(11, 224, 11);
+    padding: 15px 50px;
+    border: none;
+    outline: none;
+    color: white;
+    margin-top: 20px;
+    
+}
+.expert-bg h2{
+    font-size: 36px;
+}
+.expert-bg p{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.callusnow{
+    background-color: transparent;
+    border: solid 4px rgb(22, 21, 21);
+    padding: 25px 50px;
+    color: rgb(22, 20, 20);
+    font-weight: bold;
+}
+
+
+
+
+/******************************************************************/
+.founder1{
+    position: relative;
+}
+.f1{
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    color: white;
+    
+}
+.f1 p{
+    font-size: 20px;
+}
+.f-btn{
+    background-color: gray;
+    color: black;
+    font-size: 15px;
+    padding: 10px 20px;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+
+/************************************************************/
+
+.enquiry-form{
+   background-color: rgb(88, 86, 86); 
+    color: white;
+}
+.enquiry-form h6{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+/*********************************************/
+
+.form-group button{
+    padding: 10px 55px;
+}
+
+/********************/
+
+.promises{
+    border: solid 2px gray;
+}
+.promises h6{
+color: rgb(4, 182, 4);
+font-weight: bold;
+}
+
+
+/**********************************/
+
+.promise-heading{
+    color: rgb(179, 130, 6);
+}
+details p{
+    font-weight: 500;
+}
+summary{
+    background-color: gray;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+/*************************************************/
+
+.contact h1{
+    color: goldenrod;
+    padding: 10px 1px;
+    font-size: 45px;
+}
+.contact{
+    background-color: rgb(221, 219, 219);
+    color: black;
+}
+
+.btn-call{
+    padding: 10px 55px;
+    background-color: transparent;
+    color: yellowgreen;
+    font-weight: bold;
+    border: solid 2px yellowgreen;
+}
+.btn-booking{
+    padding: 10px 15px;
+    background-color: transparent;
+    color: yellowgreen;
+    font-weight: bold;
+    border: solid 2px yellowgreen;
+}
+.btn-directions{
+    padding: 10px 35px;
+    background-color: transparent;
+    color: yellowgreen;
+    font-weight: bold;
+    border: solid 2px yellowgreen;
+}
+.btn-booking:hover{
+    background-color: grey;
+}
+.btn-directions:hover{
+    background-color: grey;
+}
+.btn-call:hover{
+    background-color: grey;
+}
+/**************************************footer************************/
+
+footer{
+    background-color:grey;
+    color: white;
+}
+.footer-logo{
+    width: 270px;
+    height: 150px;
+}
+footer p{
+    font-weight: 400;
+}
+footer a{
+    color: white;
+    font-size: 18px;
+}
+footer li{
+    list-style-type: none;
+}
+ul{
+    padding-left: 0%;
+}
+footer a:hover{
+    color: goldenrod;
+}
